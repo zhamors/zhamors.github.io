@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html  lang="zh">
+<head>
+    <meta charset="utf-8" />
+
+<meta name="generator" content="Hexo 4.2.1" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<title>Zhamors的博客</title>
+
+
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Zhamors的博客">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Zhamors的博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://yoursite.com/images/og_image.png">
+<meta property="article:author" content="Zhamors">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/images/og_image.png">
+
+
+
+
+
+
+
+<link rel="icon" href="/images/favicon.ico">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600|Source+Code+Pro">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+
+
+    
+    
+<style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+
+    
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
+
+    
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+
+    
+    
+    
+    
+<link rel="stylesheet" href="/css/back-to-top.css">
+
+    
+    
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/progressbar.css">
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+    
+    
+    
+
+
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="is-3-column">
+    <nav class="navbar navbar-main">
+    <div class="container">
+        <div class="navbar-brand is-flex-center">
+            <a class="navbar-item navbar-logo" href="/">
+            
+                <img src="/images/logo.png" alt="Zhamors的博客" height="28">
+            
+            </a>
+        </div>
+        <div class="navbar-menu">
+            
+            <div class="navbar-start">
+                
+                <a class="navbar-item is-active"
+                href="/">首页</a>
+                
+                <a class="navbar-item"
+                href="/archives">归档</a>
+                
+                <a class="navbar-item"
+                href="/categories">分类</a>
+                
+                <a class="navbar-item"
+                href="/tags">标签</a>
+                
+                <a class="navbar-item"
+                href="/about">关于</a>
+                
+            </div>
+            
+            <div class="navbar-end">
+                
+                    
+                    <a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus">
+                        
+                        <i class="fab fa-github"></i>
+                        
+                    </a>
+                    
+                
+                
+                
+                <a class="navbar-item search" title="搜索" href="javascript:;">
+                    <i class="fas fa-search"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
+    
+<div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2022-03-06T09:52:04.022Z">2022-03-06</time>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    35 分钟 读完 (大约 5232 个字)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2022/03/06/Java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/">Java语言概述</a>
+            
+        </h1>
+        <div class="content">
+            <p>##一：Java语言概述</p>
+<h3 id="1-软件开发介绍"><a href="#1-软件开发介绍" class="headerlink" title="1.软件开发介绍"></a>1.软件开发介绍</h3><ul>
+<li>软件开发软件，即一系列按照特定顺序组织的计算机数据和指令的集合。<strong>软件有系统软件和应用软件之分</strong>。</li>
+<li>人机交互方式<ul>
+<li><strong>图形化界面</strong>(Graphical User Interface <code>GUI</code>)这种方式简单直观，使用者易于接受，容易上手操作。<ul>
+<li><strong>命令行方式</strong>(Command Line Interface<code>CLI</code>)：需要有一个控制台，输入特定的指令，让计算机完成一些操作。较为麻烦，需要记录住一些命令。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>####1.1 常用的DOS命令</p>
+<ul>
+<li><p>⊞+R，一起按下，输入cmd，可以打开dos界面。</p>
+</li>
+<li><p>dir :列出当前目录下的文件以及文件夹</p>
+</li>
+<li><p>md:创建目录</p>
+</li>
+<li><p>rd :删除目录</p>
+</li>
+<li><p>cd:进入指定目录</p>
+</li>
+<li><p>cd… : 退回到上一级目录</p>
+</li>
+<li><p>cd:退回到根目录</p>
+</li>
+<li><p>del :删除文件</p>
+</li>
+<li><p>exit : 退出dos 命令行</p>
+</li>
+<li><p>补充：echo javase&gt;1.doc</p>
+</li>
+<li><p>常用快捷键</p>
+<p>  ← →：移动光标<br>  ↑↓：调阅历史操作命令<br>  Delete和Backspace：删除字符</p>
+</li>
+<li><p>注意：在输入dos命令时，要是用英文输入，所有标点符号都是英文</p>
+</li>
+</ul>
+<p>02、计算机编程语言介绍</p>
+<pre><code>什么是计算机语言
+    语言：是人与人之间用于沟通的一种方式。
+    例如：中国人与中国人用普通话沟通。而中国人要和英国人交流，就要学习英语。
+计算机语言：人与计算机交流的方式。
+    如果人要与计算机交流，那么就要学习计算机语言。计算机语言有很多种。如：C ,C++,Java,PHP,Kotlin，Python，Scala等。
+第一代语言
+    机器语言：指令以二进制代码形式存在。
+第二代语言
+    汇编语言：使用助记符表示一条机器指令。
+第三代语言：高级语言
+    C、Pascal、Fortran面向过程的语言
+    C++面向过程/面向对象
+    Java跨平台的纯面向对象的语言
+    .NET跨语言的平台
+    Python、Scala…
+    面向过程：例如张三打篮球，他打篮球的全部过程(拿球、传球、投篮……)。
+    面向对象：人的对象，人的运动的动作，运动的器械这三个对象，实例化一个张三的对象，对象有一个打篮球的动作，器械是篮球。
+    面向对象能更好的在抽象的层面分析问题，在程序实现跨越极大的赋予之前的代码。这些是面向过程编程极难实现的。</code></pre><h3 id="2-计算机编程语言介绍"><a href="#2-计算机编程语言介绍" class="headerlink" title="2.计算机编程语言介绍"></a>2.计算机编程语言介绍</h3><ul>
+<li><p>什么是计算机语言</p>
+<p>  语言：是人与人之间用于沟通的一种方式。<br>  例如：中国人与中国人用普通话沟通。而中国人要和英国人交流，就要学习英语。</p>
+</li>
+<li><p>计算机语言：人与计算机交流的方式。</p>
+<p>  如果人要与计算机交流，那么就要学习计算机语言。计算机语言有很多种。如：C ,C++,Java,PHP,Kotlin，Python，Scala等。</p>
+</li>
+<li><p>第一代语言</p>
+<p>  机器语言：指令以二进制代码形式存在。</p>
+</li>
+<li><p>第二代语言</p>
+<p>  汇编语言：使用助记符表示一条机器指令。</p>
+</li>
+<li><p>第三代语言：高级语言</p>
+<p>  C、Pascal、Fortran面向过程的语言<br>  C++面向过程/面向对象<br>  Java跨平台的纯面向对象的语言<br>  .NET跨语言的平台<br>  Python、Scala…<br>  面向过程：例如张三打篮球，他打篮球的全部过程(拿球、传球、投篮……)。<br>  面向对象：人的对象，人的运动的动作，运动的器械这三个对象，实例化一个张三的对象，对象有一个打篮球的动作，器械是篮球。<br>  面向对象能更好的在抽象的层面分析问题，在程序实现跨越极大的赋予之前的代码。这些是面向过程编程极难实现的</p>
+<h3 id="3-Java语言概述"><a href="#3-Java语言概述" class="headerlink" title="3.Java语言概述"></a>3.Java语言概述</h3></li>
+</ul>
+<p>是SUN(Stanford University Network，斯坦福大学网络公司) 1995年推出的一门高级编程语言。<br>是一种面向Internet的编程语言。Java一开始富有吸引力是因为Java程序可以在Web浏览器中运行。这些Java程序被称为Java小程序（applet）。applet使用现代的图形用户界面与Web用户进行交互。applet内嵌在HTML代码中。<br>随着Java技术在web方面的不断成熟，已经成为Web应用程序的首选开发语言。后台开发：Java、PHP、Python、Go、Node.js</p>
+<h4 id="3-1-Java简史"><a href="#3-1-Java简史" class="headerlink" title="3.1 Java简史"></a>3.1 Java简史</h4><ul>
+<li><p>1991年Green项目，开发语言最初命名为Oak (橡树) </p>
+</li>
+<li><p>1994年，开发组意识到Oak 非常适合于互联网</p>
+</li>
+<li><p>1996年，发布JDK 1.0，约8.3万个网页应用Java技术来制作</p>
+</li>
+<li><p>1997年，发布JDK 1.1，JavaOne会议召开，创当时全球同类会议规模之最</p>
+</li>
+<li><p>1998年，发布JDK 1.2，同年发布企业平台J2EE</p>
+</li>
+<li><p>1999年，Java分成J2SE、J2EE和J2ME，JSP/Servlet技术诞生</p>
+</li>
+<li><p>2004年，发布里程碑式版本：JDK 1.5，为突出此版本的重要性，更名为JDK 5.0</p>
+</li>
+<li><p>2005年，J2SE -&gt; JavaSE，J2EE -&gt; JavaEE，J2ME -&gt; JavaME</p>
+</li>
+<li><p>2009年，Oracle公司收购SUN，交易价格74亿美元</p>
+</li>
+<li><p>2011年，发布JDK 7.0</p>
+</li>
+<li><p>2014年，发布JDK 8.0，是继JDK 5.0以来变化最大的版本</p>
+</li>
+<li><p>2017年，发布JDK 9.0，最大限度实现模块化</p>
+</li>
+<li><p>2018年3月，发布JDK 10.0，版本号也称为18.3</p>
+</li>
+<li><p>2018年9月，发布JDK 11.0，版本号也称为18.9</p>
+</li>
+<li><p>2019年3月20日，Java SE 12 发布。Java 12是短期支持版本。</p>
+</li>
+<li><p>2019年9月23日，Java SE 13发布，此版本中添加了“文本块”，文本块是一个多行字符串文字，避免对大多数转义序列的需要，以可预测的方式自动格式化字符串，并在需要时让开发人员控制格式。</p>
+</li>
+</ul>
+<p>####3.2 Java技术体系平台</p>
+<p><strong>1.JavaSE(Java Standard Edition)标准版</strong></p>
+<p>支持面向桌面级应用（如Windows下的应用程序）的Java平台，提供了完整的Java核心API，此版本以前称为J2SE</p>
+<p><strong>2.JavaEE(Java Enterprise Edition)企业版</strong></p>
+<p>是为开发企业环境下的应用程序提供的一套解决方案。该技术体系中包含的技术如:Servlet 、Jsp等，主要针对于Web应用程序开发。版本以前称为J2EE</p>
+<p><strong>3.Java ME(Java Micro Edition)小型版</strong></p>
+<p>支持Java程序运行在移动终端（手机、PDA）上的平台，对Java API有所精简，并加入了针对移动终端的支持，此版本以前称为J2ME</p>
+<p><strong>4.Java Card</strong></p>
+<p>支持一些Java小程序（Applets）运行在小内存设备（如智能卡）上的平台</p>
+<p><strong>5.从Java的应用领域来分，Java语言的应用方向主要表现在以下几个方面：</strong></p>
+<ul>
+<li>企业级应用：主要指复杂的大企业的软件系统、各种类型的网站。Java的安全机制以及它的跨平台的优势，使它在分布式系统领域开发中有广泛应用。应用领域包括金融、电信、交通、电子商务等。</li>
+<li>Android平台应用：Android应用程序使用Java语言编写。Android开发水平的高低很大程度上取决于Java语言核心能力是否扎实。</li>
+<li>大数据平台开发：各类框架有Hadoop，spark，storm，flink等，就这类技术生态圈来讲，还有各种中间件如flume，kafka，sqoop等等，这些框架以及工具大多数是用Java编写而成，但提供诸如Java，scala，Python，R等各种语言API供编程。</li>
+<li>移动领域应用：主要表现在消费和嵌入式领域，是指在各种小型设备上的应用，包括手机、PDA、机顶盒、汽车通信设备等</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">Java主要特性</span><br><span class="line"></span><br><span class="line">1.Java语言是易学的。</span><br><span class="line">Java语言的语法与C语言和C++语言很接近，使得大多数程序员很容易学习和使用Java。</span><br><span class="line"></span><br><span class="line">2.Java语言是强制面向对象的。</span><br><span class="line">Java语言提供类、接口和继承等原语，为了简单起见，只支持类之间的单继承，但支持接口之间的多继承，并支持类与接口之间的实现机制（关键字为implements）。</span><br><span class="line"></span><br><span class="line">3.Java语言是分布式的。</span><br><span class="line">Java语言支持Internet应用的开发，在基本的Java应用编程接口中有一个网络应用编程接口（java net），它提供了用于网络应用编程的类库，包括URL、URLConnection、Socket、ServerSocket等。Java的RMI（远程方法激活）机制也是开发分布式应用的重要手段。</span><br><span class="line"></span><br><span class="line">4.Java语言是健壮的。</span><br><span class="line">Java的强类型机制、异常处理、垃圾的自动收集等是Java程序健壮性的重要保证。对指针的丢弃是Java的明智选择。</span><br><span class="line"></span><br><span class="line">5.Java语言是安全的。Java通常被用在网络环境中，为此，Java提供了一个安全机制以防恶意代码的攻击。如：安全防范机制（类ClassLoader），如分配不同的名字空间以防替代本地的同名类、字节代码检查。</span><br><span class="line"></span><br><span class="line">6.Java语言是体系结构中立的。Java程序（后缀为java的文件）在Java平台上被编译为体系结构中立的字节码格式（后缀为class的文件），然后可以在实现这个Java平台的任何系统中运行。</span><br><span class="line"></span><br><span class="line">7.Java语言是解释型的。</span><br><span class="line">如前所述，Java程序在Java平台上被编译为字节码格式，然后可以在实现这个Java平台的任何系统的解释器中运行。先编译后解释。</span><br><span class="line"></span><br><span class="line">8.Java是性能略高的。与那些解释型的高级脚本语言相比，Java的性能还是较优的。</span><br><span class="line">Java语言是原生支持多线程的。在Java语言中，线程是一种特殊的对象，它必须由Thread类或其子（孙）类来创建。</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-Java程序运行机制及运行过程"><a href="#4-Java程序运行机制及运行过程" class="headerlink" title="4.Java程序运行机制及运行过程"></a>4.Java程序运行机制及运行过程</h3><p><strong>一：面向对象</strong></p>
+<pre><code>两个基本概念：类、对象
+三大特性：封装、继承、多态</code></pre><p><strong>二：健壮性</strong></p>
+<pre><code>吸收了C/C++语言的优点，但去掉了其影响程序健壮性的部分（如指针、内存的申请与释放等），提供了一个相对安全的内存管理和访问机制</code></pre><p><strong>三：跨平台性</strong></p>
+<pre><code>跨平台性：通过Java语言编写的应用程序在不同的系统平台上都可以运行。“Write once , Run Anywhere”
+原理：只要在需要运行java 应用程序的操作系统上，先安装一个Java虚拟机(JVM Java Virtual Machine) 即可。由JVM来负责Java程序在该系统中的运行。</code></pre><h4 id="4-1Java两种核心机制"><a href="#4-1Java两种核心机制" class="headerlink" title="4.1Java两种核心机制"></a>4.1Java两种核心机制</h4><ul>
+<li>Java虚拟机（Java Virtal Machine）</li>
+<li>垃圾收集机制 （Garbage Collection）</li>
+</ul>
+<h5 id="1-Java虚拟机-Java-Virtal-Machine"><a href="#1-Java虚拟机-Java-Virtal-Machine" class="headerlink" title="1.Java虚拟机(Java Virtal Machine)"></a>1.Java虚拟机(Java Virtal Machine)</h5><ul>
+<li>JVM是一个虚拟的计算机，具有指令集并使用不同的存储区域。负责执行指令，管理数据、内存、寄存器。</li>
+<li>对于不同的平台，有不同的虚拟机。</li>
+<li>只有某平台提供了对应的java虚拟机，java程序才可在此平台运行。[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/6e8896a4581137887d6ed13d38b73f66.png#pic_center" alt="img"></p>
+<p>Java虚拟机机制屏蔽了底层运行平台的差别，实现了“一次编译，到处运行”。</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/abf0d61fe5dd61e668aa92ab901f348c.png#pic_center" alt="img"></p>
+<h5 id="2-垃圾收集机制-Garbage-Collection"><a href="#2-垃圾收集机制-Garbage-Collection" class="headerlink" title="2.垃圾收集机制(Garbage Collection)"></a>2.垃圾收集机制(Garbage Collection)</h5><ul>
+<li>不再使用的内存空间应回收——垃圾回收。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在C&#x2F;C++等语言中，由程序员负责回收无用内存。</span><br><span class="line"></span><br><span class="line">Java 语言消除了程序员回收无用内存空间的责任：它提供一种系统级线程跟踪存储空间的分配情况。并在JVM空闲时，检查并释放那些可被释放的存储空间。</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li>垃圾回收在Java程序运行过程中自动进行，程序员无法精确控制和干预。</li>
+<li><strong><em>Java程序还会出现内存泄漏和内存溢出问题吗？Yes!</em></strong></li>
+</ul>
+<h3 id="5-Java语言的环境搭建"><a href="#5-Java语言的环境搭建" class="headerlink" title="5.Java语言的环境搭建"></a>5.Java语言的环境搭建</h3><ul>
+<li>明确什么是 JDK, JRE</li>
+<li>下载 JDK</li>
+<li>安装 JDK</li>
+<li>配置环境变量</li>
+<li>path windows 系统执行命令时要搜寻的路径。</li>
+<li>验证 是否成功： javac java</li>
+<li>选择合适的文本编辑器或 IDE 开发</li>
+</ul>
+<h5 id="1-什么是JDK-JRE"><a href="#1-什么是JDK-JRE" class="headerlink" title="1.什么是JDK, JRE."></a>1.什么是JDK, JRE.</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">JDK(Java Development Kit Java开发工具包)</span><br><span class="line">    JDK是提供给Java开发人员使用的，其中包含了java的开发工具，也**包括了JRE。**所以安装了JDK，就不用在单独安装JRE了。其中的开发工具：编译工具(javac.exe) 打包工具(jar.exe)等。</span><br><span class="line">JRE(Java Runtime Environment Java运行环境)</span><br><span class="line">    包括Java虚拟机(JVM Java Virtual Machine)和Java程序所需的核心类库等，如果想要运行一个开发好的Java程序，计算机中只需要安装JRE即可。</span><br></pre></td></tr></table></figure>
+<p><strong><em>简单而言，使用JDK的开发工具完成的java程序，交给JRE去运行</em></strong></p>
+<h5 id="2-JDK、JRE、JVM的关系"><a href="#2-JDK、JRE、JVM的关系" class="headerlink" title="2.JDK、JRE、JVM的关系"></a>2.JDK、JRE、JVM的关系</h5><p><img src="https://img-blog.csdnimg.cn/img_convert/20075dab3d919bd54a90ec98fc82b7f3.png" alt="img"></p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/2382a6067e10992fe6323fd8ca97cac8.png" alt="img"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">JDK &#x3D; JRE + 开发工具集（例如Javac编译工具等）</span><br><span class="line">JRE &#x3D; JVM + Java SE标准类库</span><br></pre></td></tr></table></figure>
+
+
+
+<h5 id="3-下载并安装JDK"><a href="#3-下载并安装JDK" class="headerlink" title="3.下载并安装JDK"></a>3.下载并安装JDK</h5><ul>
+<li><p>官方网址：</p>
+<p>下载JDK：<a href="http://www.oracle.com">www.oracle.com</a><br>java.sun.com</p>
+</li>
+<li><p>安装JDK</p>
+<p>傻瓜式安装，下一步即可。<br><strong><em>建议：安装路径不要有中文或者空格等特殊符号。</em></strong><br>如果操作系统是64位的，软件尽量选择支持64位的（除非软件本身不区分）。<br>当提示安装JRE 时，正常在JDK安装时已经装过了，但是为了后续使用Eclipse等开发工具不报错，建议也根据提示安装JRE。</p>
+</li>
+</ul>
+<h5 id="4-配置环境变量path"><a href="#4-配置环境变量path" class="headerlink" title="4.配置环境变量path"></a>4.配置环境变量path</h5><p><strong>path:</strong>  windows系统执行命令时要搜寻的路径</p>
+<ul>
+<li><p>在 dos 命令行中敲入 javac ，出现错误提示</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/c900d6c75ef2078149a1045a0f343942.png#pic_center" alt="在这里插入图片描述"></p>
+</li>
+<li><p>错误原因：当前执行的程序在当前目录下如果不存在， windows 系统会在系<br>统中已有的一个名为 path 的环境变量指定的目录中查找。如果仍未找到，会<br>出现以上的错误提示。所以进入到 jdk 安装路径 bin 目录下，执行 javac ，会<br>看到 javac 参数提示信息。</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/5c2630449dc7a4f60ba17a431980fa4f.png#pic_center" alt="在这里插入图片描述"></p>
+</li>
+</ul>
+<p><strong>每次执行java 的工具都要进入到bin目录下，非常麻烦。可不可以在任何目录下都可以执行java的工具呢？</strong></p>
+<ul>
+<li><p>根据 windows 系统在查找可执行程序的原理，可以将 java 工具所在路径定义到<br>path 环境变量中，让系统帮我们去找运行执行的程序。</p>
+</li>
+<li><p>配置方法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我的电脑-&gt;属性-&gt;高级系统设置-&gt;环境变量</span><br><span class="line">编辑 path 环境变量，在变量值开始处加上 java 工具所在目录，后面用 ““; 和其他值分隔开即可。</span><br><span class="line">打开 DOS 命令行，任意目录下敲入 javac 。如果出现 javac 的参数信息，配置成功。</span><br></pre></td></tr></table></figure>
+
+<p>*<u>注：具体操作流程，参看JDK8下载安装配置.doc</u>*</p>
+</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/c78660cfe449e1b1b51c1b12b8470e96.png" alt="img"></p>
+<h5 id="5-验证"><a href="#5-验证" class="headerlink" title="5.验证"></a>5.验证</h5><p><img src="E:%5CDesktop%5Cjavaversion.png" alt="javaversion"></p>
+<h3 id="6-开发体验-HelloWorld"><a href="#6-开发体验-HelloWorld" class="headerlink" title="6.开发体验-HelloWorld"></a>6.开发体验-HelloWorld</h3><p>步骤一：<strong><em>编写</em></strong></p>
+<p>1.编写Java 代码到扩展名为.java 的文件中</p>
+<p>2.选择 edit plus 记事本</p>
+<p>3.敲入代码class Test{}将文件保存成Test.java，这个文件是存放java代码的文件，称为源文件</p>
+<h5 id="第一个Java程序"><a href="#第一个Java程序" class="headerlink" title="第一个Java程序"></a>第一个Java程序</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public class Test&#123;</span><br><span class="line">  public static void main(String[] args)&#123;</span><br><span class="line">    System.out.println(&quot;Hello World!)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>步骤二：<strong><em>编译</em></strong></p>
+<p>有了 java 源文件，通过编译器将其编译成 JVM 可以识别的字节码文件。<br>在该源文件目录下，通过 javac 编译工具对 Test.java 文件进行编译。<br>如果程序没有错误，没有任何提示，但在当前目录下会出现一个 Test.class 文<br>件，该文件称为字节码文件，也是可以执行的 java 的程序。</p>
+<p><img src="E:%5CDesktop%5C360%E6%88%AA%E5%9B%BE17130414105110115.png" alt="360截图17130414105110115"></p>
+<p>步骤三：运行</p>
+<p>有了可执行的 java 程序 Test.class 字节码文件<br>通过运行工具 java.exe 对字节码文件进行执行。<br>出现提示：缺少一个名称为 main的方法<img src="E:%5CDesktop%5C%E5%B0%9A%E7%A1%85%E8%B0%B7_%E5%AE%8B%E7%BA%A2%E5%BA%B7_%E7%AC%AC1%E7%AB%A0_Java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0.jpg" alt="尚硅谷_宋红康_第1章_Java语言概述"></p>
+<ul>
+<li><p>因为一个程序的执行需要一个起始点或者入口，所以在 Test 类中的加入</p>
+<p>public static voidmain(String[] args</p>
+</li>
+<li><p>对修改后的 Test.java 源文件需要重新编译，生成新的 class 文件后，再进行执行。</p>
+<p>发现没有编译失败，但也没有任何效果，因为并没有告诉 JVM 要帮我们做什么事情，也就是没有可以具体执行的语句。</p>
+</li>
+<li><p>想要和 JVM 来个互动，只要在 main 方法中 加入 一句 System.out.println (“Hello 因为程序进行改动，所以再重新编译，运行即可。</p>
+</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/c66193345f2d1a177603d354d48907a0.png" alt="img"></p>
+<h3 id="7-常见问题及解决方法"><a href="#7-常见问题及解决方法" class="headerlink" title="7.常见问题及解决方法"></a>7.常见问题及解决方法</h3><p>1.<img src="E:%5CDesktop%5Cdsagkl;.jpg" alt="dsagkl;"></p>
+<ul>
+<li><strong><em>声明为 public 的类 应与文件名一致，否知编译失败</em></strong></li>
+</ul>
+<p>2.<img src="E:%5CDesktop%5Cfgdhfgdh.jpg" alt="fgdhfgdh"></p>
+<ul>
+<li><strong><em>编译失败，注意错误出现的行数，再到源代码中指定位置改错</em></strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">学习编程最容易犯的错是语法错误。Java 要求你必须按照语法规则编写代码。</span><br><span class="line">如果你的程序违反了语法规则，例如：忘记了分号、大括号、引号，或者拼</span><br><span class="line">错了单词,java 编译器都会报语法错误。 尝试着去看懂编译器会报告的错误</span><br><span class="line">信息。</span><br></pre></td></tr></table></figure>
+
+<h3 id="8-注释（Comment）"><a href="#8-注释（Comment）" class="headerlink" title="8.注释（Comment）"></a>8.注释（Comment）</h3><ul>
+<li>用于注解说明解释程序的文字就是注释。</li>
+<li>Java 中的注释类型：<ul>
+<li>单行注释</li>
+<li>多行注释</li>
+<li>文档注释 (java 特有）</li>
+</ul>
+</li>
+<li>提高了代码的阅读性；调试程序的重要方法 。</li>
+<li>注释是一个程序员必须要具有的良好编程习惯。</li>
+<li>将自己的思想通过注释先整理出来，再用代码去体现</li>
+</ul>
+<p><strong>1.单行注释</strong></p>
+<ul>
+<li><p>格式： </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;注释文字</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><strong>2.多行注释</strong></p>
+<ul>
+<li><p>格式：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;* 注释文字*&#x2F;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><strong>注：对于单行和多行注释，被注释的文字，不会被 JVM java 虚拟机）解释执行。</strong><br><strong><em>多行注释里面不允许有多行注释嵌套。</em></strong></p>
+<p><strong>3.文档注释（Java特有）</strong></p>
+<ul>
+<li>格式</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"></span><br><span class="line">@author 指定 java 程序的作者</span><br><span class="line"></span><br><span class="line">@version 指定源文件的版本</span><br><span class="line"></span><br><span class="line">*&#x2F;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>注释内容可以被 JDK 提供的工具 javadoc 所解析，生成一套以网页文件形</li>
+</ul>
+<p>式体现的该程序的说明文档。</p>
+<ul>
+<li><p>操作方式</p>
+<p><img src="E:%5CDesktop%5C360%E6%88%AA%E5%9B%BE17571113464340.png" alt="360截图17571113464340"></p>
+</li>
+</ul>
+<h3 id="9-小结"><a href="#9-小结" class="headerlink" title="9.小结"></a>9.小结</h3><ul>
+<li>Java 源文件以“ java ”为扩展名。源文件的基本组成部分是类 class, 如本例中的Hello World类。</li>
+<li>Java 应用程序的执行入口是 main() 方法。它有固定的书写 格式</li>
+<li>publicstatic void main(String[] args )</li>
+<li>Java 语言严格区分大小写。</li>
+<li>Java 方法由一条条语句构成，每个语句以“ “;;”结束。</li>
+<li>大括号 都是成对出现的,缺一不可。</li>
+<li>一个源文件中最多只能有一个public类。其它类的个数不限，如果源文件包含一个 public 类，则文件名必须按该类名命名。</li>
+</ul>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    
+<div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2020-03-25T15:08:54.015Z">2020-03-25</time>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    2 分钟 读完 (大约 368 个字)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2020/03/25/Spring%20Boot%E6%AF%95%E8%AE%BE%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/">Spring Boot毕设开发笔记</a>
+            
+        </h1>
+        <div class="content">
+            <h1 id="毕设开发笔记"><a href="#毕设开发笔记" class="headerlink" title="毕设开发笔记"></a>毕设开发笔记</h1><h4 id="问题1"><a href="#问题1" class="headerlink" title="问题1."></a>问题1.</h4><p>Mon Jun 04 00:53:48 CST 2018 WARN: Establishing SSL connection withoutserver’s identity verification is not recommended. According to MySQL 5.5.45+,5.6.26+ and 5.7.6+ requirements SSL connection must be established by defaultif explicit option isn’t set. For compliance with existing applications notusing SSL the verifyServerCertificate property is set to ‘false’. You needeither to explicitly disable SSL by setting useSSL=false, or set useSSL=trueand provide truststore for server certificate verification</p>
+<p>翻译：</p>
+<p>请注意:不建议在没有服务器身份验证的情况下建立SSL连接。根据MySQL 5.5.45+、5.6.26+和5.7.6+的要求，如果不设置显式选项，则必须建立默认的SSL连接。您需要通过设置useSSL=false显式地禁用SSL，或者设置useSSL=true并为服务器证书验证提供信任存储</p>
+<p><strong>解决方法：</strong></p>
+<p>jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false</p>
+<h4 id="问题2"><a href="#问题2" class="headerlink" title="问题2."></a>问题2.</h4><p>count(*)是统计数字，当账号密码和数据库的对上时，最少有一条记录。那我就拿获取到的记录数来判断是否登录成功！</p>
+<h4 id="3-mysql存储电话号码用varchar（11）类型"><a href="#3-mysql存储电话号码用varchar（11）类型" class="headerlink" title="3.mysql存储电话号码用varchar（11）类型"></a>3.mysql存储电话号码用varchar（11）类型</h4><h4 id="4-thymeleaf行内标签-例如：-login-remember"><a href="#4-thymeleaf行内标签-例如：-login-remember" class="headerlink" title="4.thymeleaf行内标签  [[${ }]]  例如：[[#{login.remember}]]"></a>4.thymeleaf行内标签  [[${ }]]  例如：[[#{login.remember}]]</h4><h4 id="5session和cookie的写法，在logincontroller里面"><a href="#5session和cookie的写法，在logincontroller里面" class="headerlink" title="5session和cookie的写法，在logincontroller里面"></a>5session和cookie的写法，在logincontroller里面</h4><h4 id="6-idea2019-2和2019-3版本不同整个界面有所变化。编码最好用的字体为：-Consoals-16号大小"><a href="#6-idea2019-2和2019-3版本不同整个界面有所变化。编码最好用的字体为：-Consoals-16号大小" class="headerlink" title="6.idea2019.2和2019.3版本不同整个界面有所变化。编码最好用的字体为：  Consoals 16号大小"></a>6.idea2019.2和2019.3版本不同整个界面有所变化。编码最好用的字体为：  <strong>Consoals</strong> 16号大小</h4><h4 id="7-Springboot-版本问题-导致maven下载不下来"><a href="#7-Springboot-版本问题-导致maven下载不下来" class="headerlink" title="7.Springboot 版本问题 导致maven下载不下来"></a>7.Springboot 版本问题 导致maven下载不下来</h4><h4 id="8-idea中Entity中添加注解-Data不能调用getXXX-setXXX解决方法"><a href="#8-idea中Entity中添加注解-Data不能调用getXXX-setXXX解决方法" class="headerlink" title="8.idea中Entity中添加注解@Data不能调用getXXX,setXXX解决方法"></a>8.<strong>idea中Entity中添加注解@Data不能调用getXXX,setXXX解决方法</strong></h4><p>缺少lombok插件   添加插件就好了 </p>
+<h4 id="9-配置中driver-class-name-com-mysql-jdbc-Driver报错"><a href="#9-配置中driver-class-name-com-mysql-jdbc-Driver报错" class="headerlink" title="9.配置中driver-class-name:com.mysql.jdbc.Driver报错"></a>9.配置中driver-class-name:com.mysql.jdbc.Driver报错</h4><p><strong>解决方法：</strong></p>
+<p>把方框中的<scope>runtime</scope>删掉</p>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    
+<div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-12-25T03:11:31.615Z">2019-12-25</time>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    几秒 读完 (大约 13 个字)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2019/12/25/%E7%AC%AC0%E7%AF%87%E5%8D%9A%E5%AE%A2/">第0篇博客</a>
+            
+        </h1>
+        <div class="content">
+            <p>使用Github Pages + Hexo 搭建完成个人主页</p>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    
+<div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-12-25T02:59:39.975Z">2019-12-25</time>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    几秒 读完 (大约 53 个字)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2019/12/25/Hadoop%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B_%E4%BC%AA%E5%88%86%E5%B8%83%E9%85%8D%E7%BD%AE/">Hadoop安装教程_伪分布配置</a>
+            
+        </h1>
+        <div class="content">
+            <p>（环境：Ubuntu16.04+hadoop2.7.6版本）<br>首先<br>下载Ubuntu16.04版本： <a href="http://releases.ubuntu.com/16.04/">http://releases.ubuntu.com/16.04/</a><br>下载hadoop的版本： Apache产品官网是 <a href="http://archive.apache.org/dist/（可以不下载，在ubuntu里面下载）">http://archive.apache.org/dist/（可以不下载，在ubuntu里面下载）</a></p>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    
+<div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-12-24T07:20:54.251Z">2019-12-24</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/Hexo/">Hexo</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    1 分钟 读完 (大约 123 个字)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2019/12/24/Hello%20World/">Hello World</a>
+            
+        </h1>
+        <div class="content">
+            <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <nav class="level">
+            <div class="level-item has-text-centered" style="flex-shrink: 1">
+                <div>
+                    
+                    <figure class="image is-128x128 has-mb-6">
+                        <img class="" src="/images/avatar.png" alt="ZhaoXiang">
+                    </figure>
+                    
+                    <p class="is-size-4 is-block">
+                        ZhaoXiang
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-block">
+                        Student
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-flex is-flex-center has-text-grey">
+                        <i class="fas fa-map-marker-alt has-mr-7"></i>
+                        <span>Chengdu,China</span>
+                    </p>
+                    
+                </div>
+            </div>
+        </nav>
+        <nav class="level is-mobile">
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        文章
+                    </p>
+                    <a href="/archives">
+                        <p class="title has-text-weight-normal">
+                            5
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        分类
+                    </p>
+                    <a href="/categories">
+                        <p class="title has-text-weight-normal">
+                            1
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        标签
+                    </p>
+                    <a href="/tags">
+                        <p class="title has-text-weight-normal">
+                            2
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="level">
+            <a class="level-item button is-link is-rounded" href="https://github.com/zhamors" target="_blank" rel="noopener">
+                关注我</a>
+        </div>
+        
+        
+        
+        <div class="level is-mobile">
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="Github" href="https://github.com/ppoffice">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="Facebook" href="https://facebook.com">
+                
+                <i class="fab fa-facebook"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="Twitter" href="https://twitter.com">
+                
+                <i class="fab fa-twitter"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="Dribbble" href="https://dribbble.com">
+                
+                <i class="fab fa-dribbble"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="RSS" href="/">
+                
+                <i class="fas fa-rss"></i>
+                
+            </a>
+            
+        </div>
+        
+    </div>
+</div>
+    
+        
+    
+        <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            链接
+        </h3>
+        <ul class="menu-list">
+        
+            <li>
+                <a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener">
+                    <span class="level-left">
+                        <span class="level-item">Hexo</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">hexo.io</span>
+                    </span>
+                </a>
+            </li>
+        
+            <li>
+                <a class="level is-mobile" href="https://github.com/ppoffice" target="_blank" rel="noopener">
+                    <span class="level-left">
+                        <span class="level-item">PPOffice</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">github.com</span>
+                    </span>
+                </a>
+            </li>
+        
+        </ul>
+        </div>
+    </div>
+</div>
+
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                分类
+            </h3>
+            <ul class="menu-list">
+            <li>
+        <a class="level is-marginless" href="/categories/Hexo/">
+            <span class="level-start">
+                <span class="level-item">Hexo</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            标签云
+        </h3>
+        <a href="/tags/Github-Page-Hexo/" style="font-size: 10px;">Github Page + Hexo</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a>
+    </div>
+</div>
+    
+    
+        <div class="column-right-shadow is-hidden-widescreen ">
+        
+            <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            最新文章
+        </h3>
+        
+        <article class="media">
+            
+            <a href="/2022/03/06/Java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Java语言概述">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2022-03-06T09:52:04.022Z">2022-03-06</time></div>
+                    <a href="/2022/03/06/Java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Java语言概述</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/03/25/Spring%20Boot%E6%AF%95%E8%AE%BE%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Spring Boot毕设开发笔记">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-25T15:08:54.015Z">2020-03-25</time></div>
+                    <a href="/2020/03/25/Spring%20Boot%E6%AF%95%E8%AE%BE%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Spring Boot毕设开发笔记</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/12/25/%E7%AC%AC0%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="第0篇博客">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-25T03:11:31.615Z">2019-12-25</time></div>
+                    <a href="/2019/12/25/%E7%AC%AC0%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="title has-link-black-ter is-size-6 has-text-weight-normal">第0篇博客</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/12/25/Hadoop%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B_%E4%BC%AA%E5%88%86%E5%B8%83%E9%85%8D%E7%BD%AE/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hadoop安装教程_伪分布配置">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-25T02:59:39.975Z">2019-12-25</time></div>
+                    <a href="/2019/12/25/Hadoop%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B_%E4%BC%AA%E5%88%86%E5%B8%83%E9%85%8D%E7%BD%AE/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Hadoop安装教程_伪分布配置</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/12/24/Hello%20World/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hello World">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-24T07:20:54.251Z">2019-12-24</time></div>
+                    <a href="/2019/12/24/Hello%20World/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Hello World</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/Hexo/">Hexo</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+</div>
+        
+            <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            归档
+        </h3>
+        <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2022/03/">
+                <span class="level-start">
+                    <span class="level-item">三月 2022</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/03/">
+                <span class="level-start">
+                    <span class="level-item">三月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/12/">
+                <span class="level-start">
+                    <span class="level-item">十二月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">3</span>
+                </span>
+            </a>
+        </li>
+        
+        </ul>
+        </div>
+    </div>
+</div>
+        
+            <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                标签
+            </h3>
+            <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/Github-Page-Hexo/">
+                        <span class="tag">Github Page + Hexo</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/Hexo/">
+                        <span class="tag">Hexo</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+        
+        </div>
+    
+</div>
+
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right ">
+    
+        <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            最新文章
+        </h3>
+        
+        <article class="media">
+            
+            <a href="/2022/03/06/Java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Java语言概述">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2022-03-06T09:52:04.022Z">2022-03-06</time></div>
+                    <a href="/2022/03/06/Java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Java语言概述</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/03/25/Spring%20Boot%E6%AF%95%E8%AE%BE%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Spring Boot毕设开发笔记">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-25T15:08:54.015Z">2020-03-25</time></div>
+                    <a href="/2020/03/25/Spring%20Boot%E6%AF%95%E8%AE%BE%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Spring Boot毕设开发笔记</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/12/25/%E7%AC%AC0%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="第0篇博客">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-25T03:11:31.615Z">2019-12-25</time></div>
+                    <a href="/2019/12/25/%E7%AC%AC0%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="title has-link-black-ter is-size-6 has-text-weight-normal">第0篇博客</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/12/25/Hadoop%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B_%E4%BC%AA%E5%88%86%E5%B8%83%E9%85%8D%E7%BD%AE/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hadoop安装教程_伪分布配置">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-25T02:59:39.975Z">2019-12-25</time></div>
+                    <a href="/2019/12/25/Hadoop%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B_%E4%BC%AA%E5%88%86%E5%B8%83%E9%85%8D%E7%BD%AE/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Hadoop安装教程_伪分布配置</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/12/24/Hello%20World/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hello World">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-24T07:20:54.251Z">2019-12-24</time></div>
+                    <a href="/2019/12/24/Hello%20World/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Hello World</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/Hexo/">Hexo</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            归档
+        </h3>
+        <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2022/03/">
+                <span class="level-start">
+                    <span class="level-item">三月 2022</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/03/">
+                <span class="level-start">
+                    <span class="level-item">三月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/12/">
+                <span class="level-start">
+                    <span class="level-item">十二月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">3</span>
+                </span>
+            </a>
+        </li>
+        
+        </ul>
+        </div>
+    </div>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                标签
+            </h3>
+            <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/Github-Page-Hexo/">
+                        <span class="tag">Github Page + Hexo</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/Hexo/">
+                        <span class="tag">Hexo</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="level">
+            <div class="level-start has-text-centered-mobile">
+                <a class="footer-logo is-block has-mb-6" href="/">
+                
+                    <img src="/images/logo.png" alt="Zhamors的博客" height="28">
+                
+                </a>
+                <p class="is-size-7">
+                &copy; 2022 Zhamors&nbsp;
+                Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> & <a
+                        href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a>
+                
+                </p>
+            </div>
+            <div class="level-end">
+            
+                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/">
+                        
+                        <i class="fab fa-creative-commons"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/">
+                        
+                        <i class="fab fa-creative-commons-by"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus">
+                        
+                        <i class="fab fa-github"></i>
+                        
+                    </a>
+                </p>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
+<script>moment.locale("zh-CN");</script>
+
+
+<script>
+var IcarusThemeSettings = {
+    site: {
+        url: 'http://yoursite.com',
+        external_link: {"enable":true,"exclude":[]}
+    },
+    article: {
+        highlight: {
+            clipboard: true,
+            fold: 'unfolded'
+        }
+    }
+};
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
+
+
+
+
+
+<script src="/js/animation.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
+<script src="/js/gallery.js" defer></script>
+
+
+
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update
+            my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        });
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    MathJax.Hub.Config({
+        'HTML-CSS': {
+            matchFontHeight: false
+        },
+        SVG: {
+            matchFontHeight: false
+        },
+        CommonHTML: {
+            matchFontHeight: false
+        },
+        tex2jax: {
+            inlineMath: [
+                ['$','$'],
+                ['\\(','\\)']
+            ]
+        }
+    });
+});
+</script>
+
+
+<a id="back-to-top" title="回到顶端" href="javascript:;">
+    <i class="fas fa-chevron-up"></i>
+</a>
+<script src="/js/back-to-top.js" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/main.js" defer></script>
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="想要查找什么..." />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script src="/js/insight.js" defer></script>
+<link rel="stylesheet" href="/css/search.css">
+<link rel="stylesheet" href="/css/insight.css">
+    
+</body>
+</html>
